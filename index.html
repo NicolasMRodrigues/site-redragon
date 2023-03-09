@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Redragon</title>
+</head>
+<body>
+    <header id="cabecalho" class="texto-branco navbar navbar-expand-lg sticky-top p-4">
+        <div class="container">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="images/redragon-logo.webp" alt="Logo da Redragon" class="navbar-brand">
+                </a>
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-redragon" class="nav-link texto-branco rounded-2 px-0 px-md-3">
+                            <i class="bi bi-buildings-fill me-1"></i>    
+                            Sobre a Redragon
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#destaques" class="nav-link texto-branco rounded-2 px-0 px-md-3">
+                            <i class="bi bi-bag-heart-fill me-1"></i>
+                            Destaques
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link texto-branco rounded-2 px-0 px-md-3">
+                            <i class="bi bi-dpad-fill me-1"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link texto-branco rounded-2 px-0 px-md-3">
+                            <i class="bi bi-chat-dots-fill me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-redragon">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item item-1 active" data-bs-interval="3000">
+                    </div>
+                    <div class="carousel-item item-2" data-bs-interval="3000">
+                    </div>
+                    <div class="carousel-item item-3" data-bs-interval="3000">
+                    </div>
+                    <div class="carousel-item item-4" data-bs-interval="3000">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <div class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/sobre-redragon-imagem.webp" alt="" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="title">SOBRE A <span class="vermelho">REDRAGON</span></h2>
+                            <p>Produtos Inovadores, Designs Criativos, Durabilidade Extrema e Compromisso com Preços Honestos - a Redragon é uma marca Gamer com esses 4 importantes pilares que, em pouco mais de 3 anos em operação no Brasil, já a tornaram a marca Gamer mais amada do País. Não só nos produtos, a Redragon trabalha lado a lado com gamers e especialistas, e se renova todos os dias para criar o produto certo pra você, que também Desafia seus Limites todos os dias.</p>
+                            <p>Apesar da Matriz existir desde 1996, a linha Internacional de Desenvolvimento Gamer REDRAGON foi criada em 2012 especificamente com foco em atender um público verdadeiramente apaixonado: criamos e evoluímos nossos produtos para garantir o máximo em satisfação e qualidade por um preço justo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destaques" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="title text-center texto-branco">CATEGORIAS EM <span class="vermelho">DESTAQUE</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <a href="#">
+                            <img class="rounded-2 d-block w-100" src="images/destaques/destaque-1.webp" alt="" class="d-block w-100">
+                        </a>
+                        <h3 class="title vermelho mt-2">JOGOS FPS</h3>
+                        <p class="texto-branco mb-md-3 mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis id cumque, quibusdam itaque esse ullam quia sit dicta, molestiae quasi nulla odit suscipit qui pariatur assumenda amet voluptate ea accusantium!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#">
+                            <img class="rounded-2 d-block w-100"src="images/destaques/destaque-2.webp" alt="" class="d-block w-100">
+                        </a>
+                        <h3 class="title vermelho mt-2">WEAR</h3>
+                        <p class="texto-branco mb-md-3 mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore veniam temporibus eaque delectus libero tempore dolores nesciunt est quo voluptatibus facere excepturi, dolore, fuga error assumenda quas ut. Numquam, optio!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#">
+                            <img class="rounded-2 d-block w-100" src="images/destaques/destaque-3.webp" alt="" class="d-block w-100">
+                        </a>
+                        <h3 class="title vermelho mt-2">JOGOS MOBA</h3>
+                        <p class="texto-branco mb-md-3 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ipsum, quaerat hic animi rem illo doloribus aliquid eius corrupti deleniti at a sequi neque tenetur vero pariatur maiores nam eum?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="title text-center mb-5">NOSSOS <span class="vermelho">PRODUTOS</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#teclados" class="fw-bold text-start nav-link vermelho active">Teclados</button>
+                            <span class="linha-divisoria"></span>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#vestuario" class="fw-bold text-start nav-link vermelho">Vestuário</button>
+                            <span class="linha-divisoria"></span>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#headsets" class="fw-bold text-start nav-link 
+                            vermelho">Headsets</button>
+                            <span class="linha-divisoria"></span>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mouses" class="fw-bold text-start nav-link vermelho">Mouses</button>
+                            <span class="linha-divisoria"></span>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#kits" class="fw-bold text-start nav-link vermelho">Kits</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="teclados">
+                                <div class="row pt-md-0 pt-4">
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/teclados/teclado1.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Mitra Bubblegum Blue</h3>
+                                            <p class="cinza">Descubra mais sobre o Mitra Bubblegum com switch Blue</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/teclados/teclado2.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Dark Avenger lollipop Brown</h3>
+                                            <p class="cinza">
+                                                Descubra mais sobre o Redragon Dark Avenger Lollipop com switch brown.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/teclados/teclado3.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Dragonborn Bubblegum Blue</h3>
+                                            <p class="cinza">Descubra mais sobre o Dragonborn Bubblegum com switch Blue</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/teclados/teclado4.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Mitra Lollipop Brown</h3>
+                                            <p class="cinza">Descubra mais sobre o Mitra Lollipop com switch Brown</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/teclados/teclado5.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Mitra Lollipop Blue</h3>
+                                            <p class="cinza">Descubra mais sobre o Mitra Lollipop com switch Blue</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/teclados/teclado6.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Dragonborn Bubblegum Brown</h3>
+                                            <p class="cinza">Descubra mais sobre o Dragonborn Bubblegum Brown</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="headsets">
+                                <div class="row pt-md-0 pt-4">
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/headsets/headset1.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Medea</h3>
+                                            <p class="cinza">Descubra mais sobre o Medea - H280</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/headsets/headset2.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Diomedes</h3>
+                                            <p class="cinza">Descubra mais sobre o Diomedes - H388</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/headsets/headset3.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Cadmus RGB</h3>
+                                            <p class="cinza">Descubra mais sobre o Cadmus RGB - H370-RGB</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/headsets/headset4.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Nireus RGB</h3>
+                                            <p class="cinza">Descubra mais sobre o Nireus RGB - H399-RGB</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/headsets/headset5.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Mento Lunar White</h3>
+                                            <p class="cinza">Descubra mais sobre o Mento Lunar White - H270-W</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/headsets/headset6.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Epius</h3>
+                                            <p class="cinza">Descubra mais sobre o Epius - H360</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="vestuario">
+                                <div class="row pt-md-0 pt-4">
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/roupas/roupa1.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Asahi Dragon</h3>
+                                            <p class="cinza">Coleção Rising Sun 2022 - Limitada</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/roupas/roupa2.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Honor</h3>
+                                            <p class="cinza">Coleção Rising Sun 2022 - Limitada</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/roupas/roupa3.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Ramen Shop</h3>
+                                            <p class="cinza">Coleção Rising Sun 2022 - Limitada</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/roupas/roupa4.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Harajuku Graffiti</h3>
+                                            <p class="cinza">Coleção Rising Sun 2022 - Limitada</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/roupas/roupa5.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Samurai Code</h3>
+                                            <p class="cinza">Coleção Rising Sun 2022 - Limitada</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/roupas/roupa6.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">New Age</h3>
+                                            <p class="cinza">Coleção Rising Sun 2022 - Limitada</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="mouses">
+                                <div class="row pt-md-0 pt-4">
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/mouses/mouse1.jpg" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Storm Elite Lunar White</h3>
+                                            <p class="cinza">Descubra mais sobre o Storm Elite Lunar White</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/mouses/mouse2.jpg" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Cobra Lunar White</h3>
+                                            <p class="cinza">Descubra mais sobre o Cobra Lunar White</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/mouses/mouse3.jpg" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">King Cobra 2</h3>
+                                            <p class="cinza">Descubra mais sobre o King Cobra 2</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/mouses/mouse4.jpg" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Infernal Ryu</h3>
+                                            <p class="cinza">Descubra mais sobre o Infernal Ryu</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/mouses/mouse5.jpg" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Nothosaur</h3>
+                                            <p class="cinza">Descubra mais sobre o Nothosaur</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/mouses/mouse6.jpg" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">Dagger 2</h3>
+                                            <p class="cinza">Descubra mais sobre o Dagger 2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="kits">
+                                <div class="row pt-md-0 pt-4">
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/kits/kit1.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">KIT S118 V2</h3>
+                                            <p class="cinza">Descubra mais sobre o kit da Redragon</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/kits/kit2.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">KIT M607-BA</h3>
+                                            <p class="cinza">Descubra mais sobre o kit da Redragon</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/kits/kit3.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">KIT S125</h3>
+                                            <p class="cinza">Descubra mais sobre o kit da Redragon</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/kits/kit4.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">STARTER KIT S107</h3>
+                                            <p class="cinza">Descubra mais sobre o kit da Redragon</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/kits/kit5.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">KIT S118</h3>
+                                            <p class="cinza">Descubra mais sobre o kit da Redragon</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="contorno-do-produto p-2 rounded-1 h-100">
+                                            <a href="#">
+                                                <img class="rounded-1 d-block w-100" src="images/produtos/kits/kit6.webp" alt="">
+                                            </a>
+                                            <h3 class="title mt-2 h5 vermelho">KIT S112</h3>
+                                            <p class="cinza">Descubra mais sobre o kit da Redragon</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="py-5 ">
+            <div class="container">
+                <div class="row">
+                    <h2 class="title text-center mb-5">
+                        Fale <span class="vermelho">conosco</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="#nome" class="form-label fw-bold vermelho">Seu nome</label>
+                                <input type="text" class="form-control" id="nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="#email" class="form-label fw-bold vermelho">Seu e-mail</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="#telefone" class="form-label fw-bold vermelho">Seu telefone (opcional)</label>
+                                <input type="tel" class="form-control" id="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="#mensagem" class="form-label fw-bold vermelho">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="title fs-4">
+                                <h3>
+                                    <i class="bi bi-hand-thumbs-up-fill vermelho"></i>
+                                    Redes Sociais
+                                </h3>
+                                <ul class="social-links p-0">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook vermelho"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 mx-1">
+                                        <a href="#">
+                                            <i class="bi bi-instagram vermelho"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp vermelho"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="title fs-4">
+                                    <i class="bi bi-cursor-fill vermelho"></i>
+                                    Endereço
+                                </h3>
+                                <p>
+                                    Rua Teste Exemplo n° 145, Bairro Bootstrap - São Paulo - SP
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

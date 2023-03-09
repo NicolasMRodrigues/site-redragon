@@ -1,0 +1,142 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+#cabecalho {
+    z-index: 99;
+}
+
+.navbar {
+    background-color: rgb(35, 35, 35);
+}
+
+.texto-branco {
+    color: #fff;
+}
+
+#cabecalho .container img {
+    height: 40px;
+    width: auto;
+}
+
+#cabecalho .nav .nav-link:hover,
+#cabecalho .nav .nav-link:focus {
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active:hover,
+#cabecalho .nav .nav-link.active:focus,
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(35, 35, 35);
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.logo {
+    margin: 0;
+    font-size: 0;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+}
+
+.vermelho {
+    color: #E00E31;
+}
+
+#destaques {
+    background-image: url(images/background-image.webp);
+}
+
+.nav-produtos {
+    border-radius: 5px;
+    border: 1px solid rgb(235, 235, 235);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.linha-divisoria {
+    margin: 0 5px;
+    border-bottom: 1px solid #dfdfdf;
+    border-radius: 0;
+}
+
+.nav-produtos .nav-link:hover {
+    color: #E00E31;
+}
+
+.nav-produtos .nav-link.active:hover {
+    color: #fff;
+}
+
+.nav-produtos .nav-link.active {
+    background-color: rgb(35, 35, 35);
+}
+
+.cinza {
+    color: #545454;
+}
+
+.contorno-do-produto {
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.5);
+    background-color: rgb(240, 240, 240);
+}
+
+.tab-pane.active {
+    animation: fadein 0.3s linear;
+}
+
+.btn {
+    color: #fff;
+    background-color: #232323;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #373737;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@keyframes fadein {
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+}
+
+.item-1 {
+    background: url("images/slides/slide1.webp") center center no-repeat;
+}
+
+.item-2 {
+    background: url("images/slides/slide2.webp") center center no-repeat;
+}
+
+.item-3 {
+    background: url("images/slides/slide3.webp") center center no-repeat;
+}
+
+.item-4 {
+    background: url("images/slides/slide4.webp") center center no-repeat;
+}
+
+.carousel-item {
+    background-size: auto 100%;
+    height: 612px;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel, .carousel-item {
+        height: 300px; 
+    }
+
+}
